@@ -2,41 +2,22 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #2234ae;
-    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
-    color: #fefae0;
-}
-body > * {
-    color: #fefae0 !important;    
+    font-family: 'Poppins', sans-serif;
+    background-color: #dbdaea !important;
 }
 
+/* Testimonials Card */
 
-
-
-
-.heading {
-    text-align: center;
-
-}
-
-.name {
-    color: rgb(51, 51, 51);
-}
-.card {
-    border-radius: .7rem;
-}
-
-
-.card-body:hover {
-    cursor: pointer;
-    background-color: #0582ca;
-    color: white;
-    transition: 0.3s ease;
-}
-.card-body > div >img {
-    border: 2px solid black;
-}
-.card-body > h5 h6{
-    background-color: white;
-}
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
